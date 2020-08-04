@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "461179036650",
+    "firebase_url": "https://board-app-d9984.firebaseio.com",
+    "project_id": "board-app-d9984",
+    "storage_bucket": "board-app-d9984.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461179036650:android:cc1e2fc4c872fad3cd4893",
+        "android_client_info": {
+          "package_name": "com.pranav.board_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461179036650-7l9d7rvtll2jrgcetu5h81rlmmf339eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmTVfZU3Jpqr32FE9gA8Ki87kKs8RGhwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461179036650-7l9d7rvtll2jrgcetu5h81rlmmf339eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
