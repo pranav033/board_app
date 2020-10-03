@@ -29,8 +29,8 @@ class _boardState extends State<board> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Board app"),
-        centerTitle: true,
+        title: Text("BOARD APP"),
+        centerTitle: false,
         
       ),
       floatingActionButton: FloatingActionButton(onPressed: (){
@@ -57,7 +57,7 @@ class _boardState extends State<board> {
 
     await showDialog(context: context,
     child: AlertDialog(
-      contentPadding: EdgeInsets.all(10.0),
+      contentPadding: EdgeInsets.all(15.0),
       content: Column(
         children: <Widget>[
           Text("Please fill the form."),
@@ -65,7 +65,7 @@ class _boardState extends State<board> {
             autofocus: true,
             autocorrect: true,
             decoration: InputDecoration(
-              labelText: "Your Name *",
+              labelText: " Name *",
             ),
             controller: nameInputController,
           )),
@@ -98,7 +98,7 @@ class _boardState extends State<board> {
           if(nameInputController.text.isNotEmpty &&
           titleInputController.text.isNotEmpty &&
           descritionInputController.text.isNotEmpty){
-            Firestore.instance.collection("board").add(
+            Firestore.instance.collection("BOARD").add(
               {
                 "Name" : nameInputController.text,
                 "Title" : titleInputController.text,
